@@ -21,17 +21,13 @@ AWS의 핵심 서비스를 질문과 답변으로 학습하는 프로젝트입�
 | `hold/` | 시작했지만 현재 진행하지 않는 문서 |
 | `done/` | 완료된 문서. 필요하면 다른 상태의 문서에서 참고할 수 있음 |
 
-현재 5개 질문 문서는 학습을 시작하기 전이므로 `todo/`에 있습니다.
+현재 첫 번째 5개 질문 묶음은 학습을 시작하기 전이므로 `todo/`에 있습니다.
 
 ## 학습 문서
 
-| 순서 | 질문 | 문서 |
+| 문서 | 포함 질문 | 상태 |
 | --- | --- | --- |
-| 1 | IAM은 무엇이며 왜 필요한가? | [docs/todo/01-iam.md](docs/todo/01-iam.md) |
-| 2 | EC2 인스턴스는 언제 사용해야 하는가? | [docs/todo/02-ec2.md](docs/todo/02-ec2.md) |
-| 3 | Amazon S3는 무엇이고 데이터를 어떻게 보호하는가? | [docs/todo/03-s3.md](docs/todo/03-s3.md) |
-| 4 | VPC는 무엇이며 서브넷과 보안 그룹은 어떤 역할을 하는가? | [docs/todo/04-vpc.md](docs/todo/04-vpc.md) |
-| 5 | AWS Lambda는 무엇이며 어떤 상황에 적합한가? | [docs/todo/05-lambda.md](docs/todo/05-lambda.md) |
+| [AWS-기초-질문.md](docs/todo/AWS-기초-질문.md) | IAM, EC2, Amazon S3, VPC, AWS Lambda | todo |
 
 ## 학습 방법
 
@@ -47,11 +43,7 @@ AWS의 핵심 서비스를 질문과 답변으로 학습하는 프로젝트입�
 ├── README.md
 └── docs/
     ├── todo/                 # 아직 시작하지 않음
-    │   ├── 01-iam.md
-    │   ├── 02-ec2.md
-    │   ├── 03-s3.md
-    │   ├── 04-vpc.md
-    │   └── 05-lambda.md
+    │   └── AWS-기초-질문.md  # 질문 5개와 답변
     ├── doing/                # 작업 중
     │   └── 안내.md
     ├── hold/                 # 시작했으나 현재 보류
