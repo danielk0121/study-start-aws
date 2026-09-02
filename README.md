@@ -27,7 +27,7 @@ AWS의 핵심 서비스를 질문과 답변으로 학습하는 프로젝트입�
 
 | 문서 | 포함 질문 | 상태 |
 | --- | --- | --- |
-| [AWS-기초-질문.md](docs/todo/AWS-기초-질문.md) | IAM, EC2, Amazon S3, VPC, AWS Lambda | todo |
+| [202609030107_AWS-기초-질문.md](docs/todo/202609030107_AWS-기초-질문.md) | IAM, EC2, Amazon S3, VPC, AWS Lambda | todo |
 
 ## 학습 방법
 
@@ -43,7 +43,7 @@ AWS의 핵심 서비스를 질문과 답변으로 학습하는 프로젝트입�
 ├── README.md
 └── docs/
     ├── todo/                 # 아직 시작하지 않음
-    │   └── AWS-기초-질문.md  # 질문 5개와 답변
+    │   └── 202609030107_AWS-기초-질문.md  # 질문 5개와 답변
     ├── doing/                # 작업 중
     │   └── 안내.md
     ├── hold/                 # 시작했으나 현재 보류
